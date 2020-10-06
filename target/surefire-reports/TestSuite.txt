@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.312 sec <<< FAILURE! - in TestSuite
+Mytest4(com.ig.test.Test1)  Time elapsed: 0.637 sec  <<< FAILURE!
+java.lang.AssertionError: expected [IG Infotech] but found [ABC Infotech]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.ig.test.Test1.Mytest4(Test1.java:106)
+
